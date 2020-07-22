@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/about.css">
+    </head>
+    <body>
+        <h1>Welcome to Honoree's portfolio Website</h1>
+        <div class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-container">
+            <div class="navbar">
+                <a href="#">Study Background</a>
+                <a href="#">Work Experiences</a>
+                <a href="#">Training Certificates</a>
+            </div>
+        </div>
+        <script src='https://code.jquery.com/jquery-3.4.1.min.js'>
+        </script>
+        
+        <script>
+            $(' .navbar').click(function(){
+                $('navbar').animate({height:"toggle", opacity: "toggle"}, "slow");
+                });
+        
+        </script>
+    </body>
+</html>
