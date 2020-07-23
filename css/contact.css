@@ -4,8 +4,8 @@ body {
     box-sizing: border-box;
 }
 
-.header-container {
-    background-image: url("../images/top_en.png");
+.header {
+    background: rgb(173, 171, 171);
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -13,15 +13,15 @@ body {
     background-size: cover;
 }
 
-.navbar {
+.header .navbar {
     
     text-align: center;
     padding: 20px;
-    height: 100px;
+    height: 50px;
     width: 100%;
 }
 
-.navbar a {
+.header .navbar a {
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -32,9 +32,62 @@ body {
     transition: 0.3px;
 }
 
-.navbar a:hover {
+.header .navbar a:hover {
     background-color: blue;
     border: 0.5px solid;
+}
+
+
+.header .contact {
+    width: 20%;
+    height: 250px;
+    margin-left: 10px;
+    text-align: center;
+    float: right;
+}
+
+.header .contact-form p {
+    color: black;
+    margin-left: 20px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header .contact-form .text-input{
+    background: white;
+    color: black;
+    padding: .9rem 1.4rem;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    border: none;
+}
+
+.header .contact-form .btn-big {
+    font-size: large;
+    border: black;
+    cursor: pointer;
+    color: black; 
+    float: left;
+    line-height: 1.5rem;
+    margin-left: 80px;
+}
+
+.header .contact p {
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.header .contact a {
+    color: blue;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header .contact a:hover {
+    cursor: pointer;
+    color: red;
 }
 
 .footer-container{
@@ -45,7 +98,7 @@ body {
     background: gray;
 }
 
-.footer-bottom {
+.footer-container .footer-bottom {
     background: gray;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
@@ -61,26 +114,4 @@ body {
     
 }
 
-.contact-content p {
-    text-decoration: none;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-}
 
-.contact-content a {
-    color: blue;
-    font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
-}
-.contact-content a:hover{
-    cursor: pointer;
-    color: red;
-}
-
-.contact-content {
-    width: 20%;
-    height: 250px;
-    margin-left: 10px;
-    text-align: center;
-}

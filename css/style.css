@@ -135,9 +135,25 @@ h1 {
 .footer .footer-content .contact-form .text-input {
     background: white;
     color: black;
-    padding: 10px;
+    padding: .9rem 1.4rem;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    border: none;
 }
-
+.footer .footer-content .contact-form .text-input:focus {
+    color: black;
+}
+.footer .footer-content .contact-form .btn-big {
+    font-size: large;
+    border: black;
+    cursor: pointer;
+    color: black; 
+    float: right;
+    line-height: 1.5rem;
+}
+.footer .footer-content .contact-form .btn-big:hover {
+    color: blue;
+}
 
 .footer .footer-bottom {
     background: gray;
