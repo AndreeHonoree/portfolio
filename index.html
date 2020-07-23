@@ -14,24 +14,29 @@
             <span></span>
         </div>
         <div class="container">
-            <div class="header-container">
+            <div class="header">
                 <div class="navbar">
                     <a href="index.html">Home</a>
                     <a href="about.html">About-Me</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#contact">Contact-Me</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="contact.html">Contact-Me</a>
                 </div>
             </div>
             
-            <div class="footer-container">
+            <div class="footer">
                 <div class="footer-content">
-                    <div class="head-content">
+                    <div class="footer-section profile">
+                        <h2>Profile</h2>
                         <img src="./images/bg3.jpg">
                         <p class="name">Andree Honoree</p>
                         <p class="desc">A Junior Web Developer</p>
+                        <div class="contact">
+                            <span><i class="fas fa-phone"></i>&nbsp; +250 786 227 601</span>
+                            <span><i class="fas fa-envelope"></i>&nbsp; iradandree@gmail.com</span>
+                        </div>
                     </div>
 
-                    <div class="about-content" id="about">
+                    <div class="footer-section about" >
                         <h2>About-Me</h2>
                         <ul>
                             <a href="#"><li>Study Background </li></a>
@@ -40,18 +45,23 @@
                         </ul>   
                     </div>
 
-                    <div class="skills-content" id="skills">
+                    <div class="footer-section skills">
                         <h2>Skills</h2>
                         <img src="./images/HTML.png">
                         <img src="./images/CSS.png">
                         <img src="./images/JS.png">
+                        <img src="./images/PYTHON.png">
                     </div>
 
-                    <div class="contact-content" id="contact">
+                    <div class="footer-section contact-form">
                         <h2>Contact-Me</h2>
-                        <p>Email:<a href="#">iradandree@gmail.com</a></p>
-                        <p>Phone:<a href="#">+250 786 227 601</a></p>
-                        <p>Address: KK 139 St </p>
+                        <form action="index.html" method="POST">
+                            <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                            <textarea name="message" class="text-input contact-input" placeholder="Your message"></textarea>
+                            <button type="submit" class="btn.btn-big">
+                                <i class="fas fa-envelope"></i>
+                                Send</button>
+                        </form>
                     </div>
                 </div>
                 <div class="footer-bottom">

@@ -1,10 +1,3 @@
-h1{
-    color: blue;
-    text-align: center;
-    
-    
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -12,6 +5,7 @@ body {
 }
 
 .header-container {
+    background-image: url("../images/top_en.png");
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -20,10 +14,10 @@ body {
 }
 
 .navbar {
-    background-image: url("../images/top_en.png");
+    
     text-align: center;
     padding: 20px;
-    height: 45vh;
+    height: 100px;
     width: 100%;
 }
 
@@ -43,35 +37,12 @@ body {
     border: 0.5px solid;
 }
 
-.nav {
-    background-image: url("../images/bg2.jpg");
-    text-align: center;
-    padding: 20px;
-    height: 45vh;
-    width: 100%;
-    position: relative;
-}
-.nav a {
-    text-decoration: none;
-    color: blue;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-right: 50px; 
-    border: 1px solid transparent;
-    padding: 10px; 
-    transition: 0.3px;
-}
-.nav a:hover {
-    background: black;
-}
-
 .footer-container{
     height: 50px;
     width: 100%;
     color: white;
     position: relative;
     background: gray;
-    
 }
 
 .footer-bottom {
@@ -85,6 +56,24 @@ body {
     height: 50px;
     width: 100%;
     position: absolute;
+    bottom: 0px;
+    left: 0px;
     
-    
+}
+
+.contact-content p {
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.contact-content a {
+    color: blue;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-content a:hover{
+    cursor: pointer;
+    color: red;
 }
