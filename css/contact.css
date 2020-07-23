@@ -77,3 +77,10 @@ body {
     cursor: pointer;
     color: red;
 }
+
+.contact-content {
+    width: 20%;
+    height: 250px;
+    margin-left: 10px;
+    text-align: center;
+}
