@@ -16,9 +16,50 @@
                     <a href="contact.html">Contact-Me</a>
                 </div>
                 <div class="nav">
-                    <a href="#">Study Background</a>
-                    <a href="#">Work Experiences</a>
-                    <a href="#">Training Certificates</a>
+                    <div class="tab_triger">
+                        <ul>
+                            <li><label for="tab1">Personal Profile</label></li>
+                            <li><label for="tab2">Study Background</label></li>
+                            <li><label for="tab3">Work Experiences</label></li>
+                            <li><label for="tab4">Training Certificates</label></li>
+                        </ul>
+                    </div>
+                    <div class="tab_container_wrap">
+                        <input type="radio" id="tab1" name="1">
+                        <div class="tab_content_box">
+                            <h2>Personal Profile</h2>
+                            <p> I am a responsible, hard-working professional with a passion for excellence. 
+                                I am passionate about working as part of a team who care and support 
+                                each other to deliver the best solutions to our clients for the benefits of the company. 
+                                I am curious about new technology, self-motivated and adjust to situation accordingly. 
+                                I am a failure forward and I am open to challenges for the successful production of the company.
+                            </p>
+                        </div>
+                        <input type="radio" id="tab2" name="1">
+                        <div class="tab_content_box">
+                            <h2>Study Background</h2>
+                            <p>University of Rwanda, Rwanda
+                                Bachelor’s Degree, Computer Science.
+                                2nd Nov, 2018
+                                Fawe Girls’School, Rwanda
+                                Advanced Certificate of Education, Physics-Chemistry-Math.
+                                15th Nov, 2013.</p>
+                        </div>
+                        <input type="radio" id="tab3" name="1">
+                        <div class="tab_content_box">
+                            <h2>Work Experiences</h2>
+                            <p> Intern, Sotracam Ltd, October, 2018 - December, 2018
+                                Internship
+                                Intern, CHUB, August, 2017 - September, 2017
+                                Internship</p>
+                        </div>
+                        <input type="radio" id="tab4" name="1">
+                        <div class="tab_content_box">
+                            <h2>Training Certificates</h2>
+                            <p> WeCode Basics and Advanced QA Software Testing
+                                DMM.HeHe: Research and Innovation program.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer-container">
@@ -27,14 +68,5 @@
                 </div>
             </div>
        </div>
-        <script src='https://code.jquery.com/jquery-3.4.1.min.js'>
-        </script>
-        
-        <script>
-            $(' .navbar').click(function(){
-                $('navbar').animate({height:"toggle", opacity: "toggle"}, "slow");
-                });
-        
-        </script>
     </body>
 </html>

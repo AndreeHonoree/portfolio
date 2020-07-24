@@ -5,12 +5,13 @@ body {
 }
 
 .header {
-    background: rgb(173, 171, 171);
+    background: rgb(189, 187, 187);
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 .header .navbar {
@@ -77,6 +78,7 @@ body {
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    margin-bottom: 0;
 }
 
 .header .contact a {
@@ -110,8 +112,8 @@ body {
     width: 100%;
     position: absolute;
     bottom: 0px;
-    left: 0px;
-    
+    left: 0px; 
 }
+
 
 
